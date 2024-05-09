@@ -1,0 +1,35 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  font-family: "Barlow", sans-serif;
+}
+
+.home {
+  li {
+    color: rgb(255, 106, 0);
+    border-radius: 12px 0px 0px 12px;
+    &:nth-child(2) {
+      /* background-color: #252836; */
+      /* color: #fff; */
+      position: relative;
+
+      /* .icon{ */
+      /* background-color: #ea7c69; */
+      /* box-shadow: 0px 8px 24px 0px rgba(234, 124, 105, 0.3); */
+
+      /* } */
+    }
+    &:hover {
+      background-color: #252836;
+
+      .icon {
+        background-color: #ff6a00;
+        border-radius: 12px;
+        color: #fff;
+        box-shadow: 0px 8px 24px 0px rgba(234, 124, 105, 0.3);
+      }
+    }
+  }
+}
