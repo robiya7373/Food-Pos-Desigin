@@ -1,515 +1,189 @@
+
 export const productList =[
     
         {
-          "img": "https://loremflickr.com/640/480/food",
+          "img": "https://i.pinimg.com/236x/df/a2/aa/dfa2aaed125bf7fb63a6c37dea020c41.jpg",
           "name": "Rustic Rubber Chips",
-          "price": "368.00",
-          "qty": "9",
+          "price": "$ 368.00",
+          "qty": "20 Bowls available",
+          "catigory": "Grill , Hot Dishes",
           "id": "1"
+        
         },
         {
-          "img": "https://loremflickr.com/640/480/food",
+          "img": "https://i.pinimg.com/236x/03/d9/79/03d979418740cacb8a54509ba92de752.jpg",
           "name": "Ergonomic Metal Soap",
-          "price": "923.00",
-          "qty": "7",
+          "price": "$ 923.00",
+          "qty": "7 Bowls available",
+          "catigory": "Cold Dishes , Hot Dishes",
           "id": "2"
         },
         {
-          "img": "https://loremflickr.com/640/480/food",
+          "img":"https://i.pinimg.com/474x/54/c3/ad/54c3ad8e4b8b945e1f02188fefa7da45.jpg",
           "name": "Handmade Frozen Pants",
-          "price": "257.00",
-          "qty": "7",
+          "price": "$ 257.00",
+          "qty": "7 Bowls available",
+          "catigory": "Dessert , Hot Dishes",
           "id": "3"
         },
         {
-          "img": "https://loremflickr.com/640/480/food",
+          "img": "https://i.pinimg.com/236x/07/66/10/0766106e468c0045ea04bebe7a4f4dd7.jpg",
           "name": "Licensed Bronze Pants",
-          "price": "352.00",
-          "qty": "4",
+          "price": "$ 352.00",
+          "qty": "4 Bowls available",
+          "catigory": "Cold Dishes , Hot Dishes",
           "id": "4"
         },
         {
-          "img": "https://loremflickr.com/640/480/food",
+          "img": "https://i.pinimg.com/236x/d0/6b/84/d06b8409850260ebf9aa810969e0eaa5.jpg",
           "name": "Sleek Metal Pants",
-          "price": "3.00",
-          "qty": "1",
+          "price": "$ 3.00",
+          "qty": "11 Bowls available",
+          "catigory": "Soup , Hot Dishes",
           "id": "5"
         },
         {
-          "img": "https://loremflickr.com/640/480/food",
+          "img": "https://i.pinimg.com/236x/bb/1b/5a/bb1b5a94b727097363289ea5d15a219e.jpg",
           "name": "Recycled Steel Soap",
-          "price": "849.00",
-          "qty": "3",
+          "price": "$ 849.00",
+          "qty": "3 Bowls available",
+          "catigory": "Grill , Hot Dishes",
           "id": "6"
         },
         {
-          "img": "https://loremflickr.com/640/480/food",
+          "img": "https://i.pinimg.com/236x/a9/9d/d4/a99dd4949c85ee7ae543ec4d88d49118.jpg",
           "name": "Fantastic Bronze Pants",
-          "price": "143.00",
-          "qty": "7",
+          "price": "$ 143.00",
+          "qty": "7 Bowls available",
+          "catigory": "Dessert , Hot Dishes",
           "id": "7"
         },
         {
-          "img": "https://loremflickr.com/640/480/food",
+          "img": "https://i.pinimg.com/236x/fc/2d/c9/fc2dc9d937bb680d3b183a683fe3a2cf.jpg",
           "name": "Elegant Wooden Pants",
-          "price": "579.00",
-          "qty": "2",
+          "price": "$ 579.00",
+          "qty": "17 Bowls available",
+          "catigory": "Soup , Hot Dishes",
           "id": "8"
         },
         {
-          "img": "https://loremflickr.com/640/480/food",
+          "img": "https://i.pinimg.com/236x/77/b3/69/77b369d89f04bfde24e3a47bd899b181.jpg",
           "name": "Modern Concrete Chair",
-          "price": "796.00",
-          "qty": "7",
+          "price": "$ 796.00",
+          "qty": "7 Bowls available",
+          "catigory": "Cold Dishes , Hot Dishes",
           "id": "9"
         },
         {
-          "img": "https://loremflickr.com/640/480/food",
+          "img": "https://i.pinimg.com/236x/6e/5e/0d/6e5e0dae2b75f4d4a9d79daa200e8f3c.jpg",
           "name": "Licensed Rubber Chips",
-          "price": "689.00",
-          "qty": "4",
+          "price": "$ 689.00",
+          "qty": "4 Bowls available ",
+          "catigory": "Soup , Hot Dishes",
           "id": "10"
         },
         {
-          "img": "https://loremflickr.com/640/480/food",
+          "img": "https://i.pinimg.com/236x/7f/d5/61/7fd56170f0a8d7da54816de586a8e5e2.jpg",
           "name": "Sleek Soft Car",
           "price": "201.00",
-          "qty": "7",
+          "qty": "7 Bowls available",
+          "catigory": "Cold Dishes , Hot Dishes",
           "id": "11"
         },
         {
-          "img": "https://loremflickr.com/640/480/food",
+          "img": "https://i.pinimg.com/236x/de/c6/5e/dec65e307aa7141aa63e87564719185d.jpg",
           "name": "Bespoke Rubber Shoes",
-          "price": "23.00",
-          "qty": "5",
+          "price": "$ 23.00",
+          "qty": "5 Bowls available",
+          "catigory": "Dessert , Hot Dishes",
           "id": "12"
         },
         {
-          "img": "https://loremflickr.com/640/480/food",
+          "img": "https://i.pinimg.com/236x/58/a6/66/58a666b83d4c77ef617a071ecbd43b70.jpg",
           "name": "Unbranded Bronze Shirt",
-          "price": "236.00",
-          "qty": "8",
+          "price": "$ 236.00",
+          "qty": "8 Bowls available",
+          "catigory": "Cold Dishes , Hot Dishes",
           "id": "13"
         },
         {
-          "img": "https://loremflickr.com/640/480/food",
+          "img": "https://i.pinimg.com/236x/11/1e/5e/111e5e263f4723189c5910aba3d3745c.jpg",
           "name": "Elegant Bronze Fish",
-          "price": "396.00",
-          "qty": "7",
+          "price": "$ 396.00",
+          "qty": "7 Bowls available",
+          "catigory": "Appetizer , Hot Dishes",
           "id": "14"
         },
         {
-          "img": "https://loremflickr.com/640/480/food",
+          "img": "https://i.pinimg.com/474x/cc/35/c4/cc35c4afb7277483a5e88a7d10fbf1de.jpg",
           "name": "Fantastic Plastic Mouse",
-          "price": "416.00",
-          "qty": "5",
+          "price": "$ 416.00",
+          "qty": "5 Bowls available",
+          "catigory": "Dessert , Hot Dishes",
           "id": "15"
         },
         {
-          "img": "https://loremflickr.com/640/480/food",
+          "img": "https://i.pinimg.com/236x/e9/34/46/e9344649c0402885b655ebbe350993f3.jpg",
           "name": "Recycled Plastic Hat",
-          "price": "502.00",
-          "qty": "9",
+          "price": "$ 502.00",
+          "qty": "9 Bowls available",
+          "catigory": "Cold Dishes , Hot Dishes",
           "id": "16"
         },
         {
-          "img": "https://loremflickr.com/640/480/food",
+          "img": "https://i.pinimg.com/236x/1e/90/ed/1e90ed2a7ab98c438d9a9b13f5b1827b.jpg",
           "name": "Small Steel Salad",
-          "price": "407.00",
-          "qty": "4",
+          "price": "$ 407.00",
+          "qty": "4 Bowls available",
+          "catigory": "Dessert , Hot Dishes",
           "id": "17"
         },
         {
-          "img": "https://loremflickr.com/640/480/food",
+          "img": "https://i.pinimg.com/236x/28/bb/15/28bb15db7bcea22746521bb5c3fd803a.jpg",
           "name": "Luxurious Wooden Pizza",
-          "price": "773.00",
-          "qty": "1",
+          "price": "$ 773.00",
+          "qty": "1 Bowls available",
+          "catigory": "Soup , Hot Dishes",
           "id": "18"
         },
         {
-          "img": "https://loremflickr.com/640/480/food",
+          "img": "https://i.pinimg.com/236x/71/26/f9/7126f98c7972aa9acf22685c26aecd00.jpg",
           "name": "Incredible Rubber Bike",
-          "price": "276.00",
-          "qty": "6",
+          "price": "$ 276.00",
+          "qty": "6 Bowls available",
+          "catigory": "Cold Dishes , Hot Dishes",
           "id": "19"
         },
         {
-          "img": "https://loremflickr.com/640/480/food",
+          "img": "https://i.pinimg.com/236x/96/33/e9/9633e9b6e64743cd0ac93fe9a696b4eb.jpg",
           "name": "Practical Metal Mouse",
-          "price": "652.00",
-          "qty": "9",
+          "price": "$ 652.00",
+          "qty": "9 Bowls available",
+          "catigory": "Grill , Hot Dishes",
           "id": "20"
         },
         {
-          "img": "https://loremflickr.com/640/480/food",
+          "img": "https://i.pinimg.com/236x/5c/cb/c6/5ccbc655c6db94a373386f5994ee2986.jpg",
           "name": "Handmade Frozen Pants",
-          "price": "108.00",
-          "qty": "5",
+          "price": "$ 108.00",
+          "qty": "5 Bowls available",
+          "catigory": "Soup , Hot Dishes",
           "id": "21"
         },
         {
-          "img": "https://loremflickr.com/640/480/food",
+          "img": "https://i.pinimg.com/564x/a4/6c/cf/a46ccf1d489e4b0cef554c298c937f6d.jpg",
           "name": "Rustic Steel Hat",
-          "price": "940.00",
-          "qty": "3",
+          "price": "$ 940.00",
+          "qty": "3 Bowls available",
+          "catigory": "Cold Dishes , Hot Dishes",
           "id": "22"
         },
         {
-          "img": "https://loremflickr.com/640/480/food",
+          "img": "https://i.pinimg.com/236x/60/21/f1/6021f1485b4cf47b889729a8209fe987.jpg",
           "name": "Fantastic Granite Tuna",
-          "price": "282.00",
-          "qty": "9",
+          "price": "$ 282.00",
+          "qty": "9 Bowls available",
+          "catigory": "Appetizer , Hot Dishes",
           "id": "23"
-        },
-        {
-          "img": "https://loremflickr.com/640/480/food",
-          "name": "Handcrafted Frozen Cheese",
-          "price": "375.00",
-          "qty": "7",
-          "id": "24"
-        },
-        {
-          "img": "https://loremflickr.com/640/480/food",
-          "name": "Generic Rubber Gloves",
-          "price": "213.00",
-          "qty": "5",
-          "id": "25"
-        },
-        {
-          "img": "https://loremflickr.com/640/480/food",
-          "name": "Gorgeous Frozen Shirt",
-          "price": "540.00",
-          "qty": "5",
-          "id": "26"
-        },
-        {
-          "img": "https://loremflickr.com/640/480/food",
-          "name": "Generic Rubber Sausages",
-          "price": "131.00",
-          "qty": "2",
-          "id": "27"
-        },
-        {
-          "img": "https://loremflickr.com/640/480/food",
-          "name": "Refined Metal Soap",
-          "price": "559.00",
-          "qty": "1",
-          "id": "28"
-        },
-        {
-          "img": "https://loremflickr.com/640/480/food",
-          "name": "Practical Frozen Table",
-          "price": "985.00",
-          "qty": "2",
-          "id": "29"
-        },
-        {
-          "img": "https://loremflickr.com/640/480/food",
-          "name": "Intelligent Frozen Gloves",
-          "price": "802.00",
-          "qty": "9",
-          "id": "30"
-        },
-        {
-          "img": "https://loremflickr.com/640/480/food",
-          "name": "Rustic Fresh Keyboard",
-          "price": "148.00",
-          "qty": "5",
-          "id": "31"
-        },
-        {
-          "img": "https://loremflickr.com/640/480/food",
-          "name": "Incredible Rubber Fish",
-          "price": "77.00",
-          "qty": "4",
-          "id": "32"
-        },
-        {
-          "img": "https://loremflickr.com/640/480/food",
-          "name": "Modern Rubber Salad",
-          "price": "598.00",
-          "qty": "9",
-          "id": "33"
-        },
-        {
-          "img": "https://loremflickr.com/640/480/food",
-          "name": "Awesome Wooden Chicken",
-          "price": "866.00",
-          "qty": "2",
-          "id": "34"
-        },
-        {
-          "img": "https://loremflickr.com/640/480/food",
-          "name": "Awesome Fresh Car",
-          "price": "114.00",
-          "qty": "5",
-          "id": "35"
-        },
-        {
-          "img": "https://loremflickr.com/640/480/food",
-          "name": "Sleek Frozen Soap",
-          "price": "831.00",
-          "qty": "4",
-          "id": "36"
-        },
-        {
-          "img": "https://loremflickr.com/640/480/food",
-          "name": "Electronic Plastic Mouse",
-          "price": "8.00",
-          "qty": "5",
-          "id": "37"
-        },
-        {
-          "img": "https://loremflickr.com/640/480/food",
-          "name": "Ergonomic Cotton Hat",
-          "price": "383.00",
-          "qty": "5",
-          "id": "38"
-        },
-        {
-          "img": "https://loremflickr.com/640/480/food",
-          "name": "Modern Rubber Shoes",
-          "price": "672.00",
-          "qty": "8",
-          "id": "39"
-        },
-        {
-          "img": "https://loremflickr.com/640/480/food",
-          "name": "Luxurious Soft Chicken",
-          "price": "622.00",
-          "qty": "1",
-          "id": "40"
-        },
-        {
-          "img": "https://loremflickr.com/640/480/food",
-          "name": "Sleek Wooden Table",
-          "price": "261.00",
-          "qty": "5",
-          "id": "41"
-        },
-        {
-          "img": "https://loremflickr.com/640/480/food",
-          "name": "Gorgeous Steel Chair",
-          "price": "606.00",
-          "qty": "1",
-          "id": "42"
-        },
-        {
-          "img": "https://loremflickr.com/640/480/food",
-          "name": "Bespoke Fresh Table",
-          "price": "79.00",
-          "qty": "9",
-          "id": "43"
-        },
-        {
-          "img": "https://loremflickr.com/640/480/food",
-          "name": "Practical Granite Hat",
-          "price": "389.00",
-          "qty": "8",
-          "id": "44"
-        },
-        {
-          "img": "https://loremflickr.com/640/480/food",
-          "name": "Refined Bronze Chips",
-          "price": "429.00",
-          "qty": "5",
-          "id": "45"
-        },
-        {
-          "img": "https://loremflickr.com/640/480/food",
-          "name": "Elegant Granite Towels",
-          "price": "265.00",
-          "qty": "4",
-          "id": "46"
-        },
-        {
-          "img": "https://loremflickr.com/640/480/food",
-          "name": "Fantastic Concrete Pizza",
-          "price": "204.00",
-          "qty": "3",
-          "id": "47"
-        },
-        {
-          "img": "https://loremflickr.com/640/480/food",
-          "name": "Fantastic Fresh Gloves",
-          "price": "498.00",
-          "qty": "4",
-          "id": "48"
-        },
-        {
-          "img": "https://loremflickr.com/640/480/food",
-          "name": "Awesome Cotton Salad",
-          "price": "351.00",
-          "qty": "6",
-          "id": "49"
-        },
-        {
-          "img": "https://loremflickr.com/640/480/food",
-          "name": "Tasty Metal Hat",
-          "price": "489.00",
-          "qty": "7",
-          "id": "50"
-        },
-        {
-          "img": "https://loremflickr.com/640/480/food",
-          "name": "Practical Soft Bike",
-          "price": "314.00",
-          "qty": "3",
-          "id": "51"
-        },
-        {
-          "img": "https://loremflickr.com/640/480/food",
-          "name": "Tasty Concrete Hat",
-          "price": "41.00",
-          "qty": "9",
-          "id": "52"
-        },
-        {
-          "img": "https://loremflickr.com/640/480/food",
-          "name": "Elegant Rubber Tuna",
-          "price": "542.00",
-          "qty": "9",
-          "id": "53"
-        },
-        {
-          "img": "https://loremflickr.com/640/480/food",
-          "name": "Modern Rubber Salad",
-          "price": "651.00",
-          "qty": "7",
-          "id": "54"
-        },
-        {
-          "img": "https://loremflickr.com/640/480/food",
-          "name": "Intelligent Granite Shirt",
-          "price": "422.00",
-          "qty": "4",
-          "id": "55"
-        },
-        {
-          "img": "https://loremflickr.com/640/480/food",
-          "name": "Licensed Rubber Tuna",
-          "price": "965.00",
-          "qty": "8",
-          "id": "56"
-        },
-        {
-          "img": "https://loremflickr.com/640/480/food",
-          "name": "Bespoke Bronze Shoes",
-          "price": "818.00",
-          "qty": "7",
-          "id": "57"
-        },
-        {
-          "img": "https://loremflickr.com/640/480/food",
-          "name": "Practical Rubber Pants",
-          "price": "721.00",
-          "qty": "3",
-          "id": "58"
-        },
-        {
-          "img": "https://loremflickr.com/640/480/food",
-          "name": "Intelligent Metal Tuna",
-          "price": "590.00",
-          "qty": "9",
-          "id": "59"
-        },
-        {
-          "img": "https://loremflickr.com/640/480/food",
-          "name": "Small Concrete Tuna",
-          "price": "996.00",
-          "qty": "4",
-          "id": "60"
-        },
-        {
-          "img": "https://loremflickr.com/640/480/food",
-          "name": "Recycled Cotton Car",
-          "price": "68.00",
-          "qty": "8",
-          "id": "61"
-        },
-        {
-          "img": "https://loremflickr.com/640/480/food",
-          "name": "Refined Metal Car",
-          "price": "751.00",
-          "qty": "3",
-          "id": "62"
-        },
-        {
-          "img": "https://loremflickr.com/640/480/food",
-          "name": "Generic Granite Ball",
-          "price": "194.00",
-          "qty": "5",
-          "id": "63"
-        },
-        {
-          "img": "https://loremflickr.com/640/480/food",
-          "name": "Handmade Soft Cheese",
-          "price": "454.00",
-          "qty": "4",
-          "id": "64"
-        },
-        {
-          "img": "https://loremflickr.com/640/480/food",
-          "name": "Rustic Wooden Shirt",
-          "price": "809.00",
-          "qty": "2",
-          "id": "65"
-        },
-        {
-          "img": "https://loremflickr.com/640/480/food",
-          "name": "Tasty Granite Table",
-          "price": "597.00",
-          "qty": "9",
-          "id": "66"
-        },
-        {
-          "img": "https://loremflickr.com/640/480/food",
-          "name": "Unbranded Bronze Ball",
-          "price": "639.00",
-          "qty": "5",
-          "id": "67"
-        },
-        {
-          "img": "https://loremflickr.com/640/480/food",
-          "name": "Incredible Fresh Mouse",
-          "price": "814.00",
-          "qty": "6",
-          "id": "68"
-        },
-        {
-          "img": "https://loremflickr.com/640/480/food",
-          "name": "Handmade Soft Sausages",
-          "price": "1.00",
-          "qty": "7",
-          "id": "69"
-        },
-        {
-          "img": "https://loremflickr.com/640/480/food",
-          "name": "Intelligent Cotton Towels",
-          "price": "370.00",
-          "qty": "2",
-          "id": "70"
-        },
-        {
-          "img": "https://loremflickr.com/640/480/food",
-          "name": "Practical Metal Table",
-          "price": "165.00",
-          "qty": "6",
-          "id": "71"
-        },
-        {
-          "img": "https://loremflickr.com/640/480/food",
-          "name": "Elegant Cotton Chicken",
-          "price": "900.00",
-          "qty": "2",
-          "id": "72"
-        },
-        {
-          "img": "https://loremflickr.com/640/480/food",
-          "name": "Recycled Granite Cheese",
-          "price": "647.00",
-          "qty": "3",
-          "id": "73"
         }
-      
-]
+           ]

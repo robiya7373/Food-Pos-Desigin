@@ -5,7 +5,7 @@ import Order from './components/Order/Order'
 
 const App = () => {
   return (
-    <div className='flex'>
+    <div className='flex '>
     <Nav/>
     <HomePage/>
     <Order/>
