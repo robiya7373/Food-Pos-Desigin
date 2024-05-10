@@ -15,7 +15,7 @@ export const productList =[
           "name": "Ergonomic Metal Soap",
           "price": "$ 923.00",
           "qty": "7 Bowls available",
-          "catigory": " Hot Dishes",
+          "catigory": "Hot Dishes",
           "id": "2"
         },
         {
@@ -23,7 +23,7 @@ export const productList =[
           "name": "Handmade Frozen Pants",
           "price": "$ 257.00",
           "qty": "7 Bowls available",
-          "catigory": "Dessert ",
+          "catigory": "Dessert",
           "id": "3"
         },
         {
@@ -31,7 +31,7 @@ export const productList =[
           "name": "Licensed Bronze Pants",
           "price": "$ 352.00",
           "qty": "4 Bowls available",
-          "catigory": "Cold Dishes ",
+          "catigory": "Cold Dishes",
           "id": "4"
         },
         {
@@ -39,7 +39,7 @@ export const productList =[
           "name": "Sleek Metal Pants",
           "price": "$ 3.00",
           "qty": "11 Bowls available",
-          "catigory": "Soup ",
+          "catigory": "Soup",
           "id": "5"
         },
         {
@@ -47,7 +47,7 @@ export const productList =[
           "name": "Recycled Steel Soap",
           "price": "$ 849.00",
           "qty": "3 Bowls available",
-          "catigory": "Grill ",
+          "catigory": "Grill",
           "id": "6"
         },
         {
@@ -55,7 +55,7 @@ export const productList =[
           "name": "Fantastic Bronze Pants",
           "price": "$ 143.00",
           "qty": "7 Bowls available",
-          "catigory": "Dessert ",
+          "catigory": "Dessert",
           "id": "7"
         },
         {
@@ -63,7 +63,7 @@ export const productList =[
           "name": "Elegant Wooden Pants",
           "price": "$ 579.00",
           "qty": "17 Bowls available",
-          "catigory": " Hot Dishes",
+          "catigory": "Hot Dishes",
           "id": "8"
         },
         {
@@ -71,7 +71,7 @@ export const productList =[
           "name": "Modern Concrete Chair",
           "price": "$ 796.00",
           "qty": "7 Bowls available",
-          "catigory": " Hot Dishes",
+          "catigory": "Hot Dishes",
           "id": "9"
         },
         {
@@ -79,7 +79,7 @@ export const productList =[
           "name": "Licensed Rubber Chips",
           "price": "$ 689.00",
           "qty": "4 Bowls available ",
-          "catigory": "Soup ",
+          "catigory": "Soup",
           "id": "10"
         },
         {
@@ -87,7 +87,7 @@ export const productList =[
           "name": "Sleek Soft Car",
           "price": "201.00",
           "qty": "7 Bowls available",
-          "catigory": "Cold Dishes ",
+          "catigory": "Cold Dishes",
           "id": "11"
         },
         {
@@ -103,7 +103,7 @@ export const productList =[
           "name": "Unbranded Bronze Shirt",
           "price": "$ 236.00",
           "qty": "8 Bowls available",
-          "catigory": " Hot Dishes",
+          "catigory": "Hot Dishes",
           "id": "13"
         },
         {
@@ -127,7 +127,7 @@ export const productList =[
           "name": "Recycled Plastic Hat",
           "price": "$ 502.00",
           "qty": "9 Bowls available",
-          "catigory": "Cold Dishes ",
+          "catigory": "Cold Dishes",
           "id": "16"
         },
         {
@@ -143,7 +143,7 @@ export const productList =[
           "name": "Luxurious Wooden Pizza",
           "price": "$ 773.00",
           "qty": "1 Bowls available",
-          "catigory": " Hot Dishes",
+          "catigory": "Hot Dishes",
           "id": "18"
         },
         {
@@ -151,7 +151,7 @@ export const productList =[
           "name": "Incredible Rubber Bike",
           "price": "$ 276.00",
           "qty": "6 Bowls available",
-          "catigory": "Cold Dishes ",
+          "catigory": "Cold Dishes",
           "id": "19"
         },
         {
@@ -159,7 +159,7 @@ export const productList =[
           "name": "Practical Metal Mouse",
           "price": "$ 652.00",
           "qty": "9 Bowls available",
-          "catigory": " Hot Dishes",
+          "catigory": "Hot Dishes",
           "id": "20"
         },
         {
@@ -175,7 +175,7 @@ export const productList =[
           "name": "Rustic Steel Hat",
           "price": "$ 940.00",
           "qty": "3 Bowls available",
-          "catigory": "Cold Dishes ",
+          "catigory": "Cold Dishes",
           "id": "22"
         },
         {
@@ -183,7 +183,7 @@ export const productList =[
           "name": "Fantastic Granite Tuna",
           "price": "$ 282.00",
           "qty": "9 Bowls available",
-          "catigory": "Appetizer ",
+          "catigory": "Appetizer",
           "id": "23"
         }
            ]

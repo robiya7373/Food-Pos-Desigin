@@ -28,9 +28,7 @@ const Category = () => {
      
         {categories.map((category, index) => {
           return (
-           <div>
-             <button></button>
-           </div>
+           <div></div>
           )
         })}
       </div>

@@ -1,27 +1,12 @@
 import { useState } from "react";
 
 import { LuSearch } from "react-icons/lu";
-import { productList } from "../../db/data";
+import { productList } from "../../db/data.js";
 
-console.log(productList);
 
-const HomePage = () => {
-  const [tabList, setTabList] = useState(0);
-  const [search, setSearch] = useState("");
 
-  // const [activeSearch, setActiveSearch] = useState([])
+const HomePage = ({menuItems, filterItems, setItem, item, filter, searchText, setStyle, style}) => {
 
-  // const handleSearch = (e) => {
-  //   // if(e.target.value == ''){
-  //     //     setActiveSearch([])
-  //     //     return false
-  //     // }
-  //     // setActiveSearch(productList.filter(p => p.includes(e.target.value)).slice(0,8))
-  //   }
-  const res = productList.filter((fil) =>
-    fil.name.toLowerCase().includes(search.toLowerCase())
-  );
-  console.log(res, "search");
 
   return (
     <div className=" bg-[#252836] ps-10 w-full ">
@@ -39,33 +24,47 @@ const HomePage = () => {
             <LuSearch size={18} className=" text-white" />
             <input
               className=" outline-none bg-transparent text-white "
-              onChange={(e) => setSearch(e.target.value)}
+              onChange={searchText}
               type="search"
-              value={search}
+              value={filter}
               placeholder="Search for food, coffe, etc.."
             />
           </div>
         </div>
+
         <div className="gap-8 flex mt-6 pb-4">
-          <h3
+
+          <h3 onClick={() => {
+            setItem(productList);
+            setStyle(10); 
+          }
+          } 
             className={`text-[16px] font-semibold cursor-pointer ${
-              tabList === 0 ? "text-[#ff6a00]" : "text-white"
+             style  === 10 ? "text-[#ff6a00]" : "text-white"
             }`}
-            onClick={() => setTabList(0)}
+            // onClick={() => setTabList(0)} 
           >
-            {" "}
-            Hot Dishes{" "}
-          </h3>
+            Hot Dishes
+          </h3> 
+
+       {
+
+        menuItems.map((val, index)=> (
           <h3
-            className={`text-[16px] font-semibold cursor-pointer ${
-              tabList === 1 ? "text-[#ff6a00]" : "text-white"
-            }`}
-            onClick={() => setTabList(1)}
-          >
-            {" "}
-            Cold Dishes{" "}
-          </h3>
-          <h3
+          onClick={() => {
+            filterItems(val, index);
+            setStyle(index)
+          }}
+          className={`text-[16px] font-semibold cursor-pointer ${
+            style === index ? "text-[#ff6a00]" : "text-white"
+          }`}
+        >
+          {val}
+        </h3>
+        ))
+       }
+
+          {/* <h3
             className={`text-[16px] font-semibold cursor-pointer ${
               tabList === 2 ? "text-[#ff6a00]" : "text-white"
             }`}
@@ -74,6 +73,7 @@ const HomePage = () => {
             {" "}
             Soup{" "}
           </h3>
+
           <h3
             className={`text-[16px] font-semibold cursor-pointer ${
               tabList === 3 ? "text-[#ff6a00]" : "text-white"
@@ -83,6 +83,7 @@ const HomePage = () => {
             {" "}
             Grill{" "}
           </h3>
+
           <h3
             className={`text-[16px] font-semibold cursor-pointer ${
               tabList === 4 ? "text-[#ff6a00]" : "text-white"
@@ -92,6 +93,7 @@ const HomePage = () => {
             {" "}
             Appetizer{" "}
           </h3>
+
           <h3
             className={`text-[16px] font-semibold cursor-pointer ${
               tabList === 5 ? "text-[#ff6a00]" : "text-white"
@@ -100,24 +102,12 @@ const HomePage = () => {
           >
             {" "}
             Dessert{" "}
-          </h3>
+          </h3> */}
+
         </div>
+
         <div className="h-[2px] bg-[#393C49] mt-[-2px]  me-10  relative">
-          <span
-            className={`absolute w-[40px] h-[5px] mt-[-1px] bg-[#ff6a00] rounded-full ${
-              tabList == 0
-                ? "left-[0]"
-                : tabList == 1
-                ? "left-[105px]"
-                : tabList == 2
-                ? "left-[217px]"
-                : tabList == 3
-                ? "left-[285px]"
-                : tabList == 4
-                ? "left-[345px]"
-                : "left-[448px]"
-            }`}
-          ></span>
+
         </div>
         <div className=" flex items-center justify-between pb-10">
           <h2 className="text-[20px] leading-[140%] font-semibold text-white mt-8 ">
@@ -140,7 +130,7 @@ const HomePage = () => {
       </div>
 
       <div className="grid grid-cols-4 gap-10 me-8 h-[54vh]  scrollProduct overflow-y-scroll">
-        {res.map((product) => (
+        {item.map((product) => (
           <div className="card w-[200px] h-[250px] bg-[#1F1D2B] my-7 rounded-[14px]">
             <div className=" items-center justify-center text-center">
               <img
