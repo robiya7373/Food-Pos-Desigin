@@ -44,7 +44,7 @@ const HomePage = ({menuItems, filterItems, setItem, item, filter, searchText, se
             }`}
             // onClick={() => setTabList(0)} 
           >
-            Hot Dishes
+            All
           </h3> 
 
        {
@@ -64,45 +64,7 @@ const HomePage = ({menuItems, filterItems, setItem, item, filter, searchText, se
         ))
        }
 
-          {/* <h3
-            className={`text-[16px] font-semibold cursor-pointer ${
-              tabList === 2 ? "text-[#ff6a00]" : "text-white"
-            }`}
-            onClick={() => setTabList(2)}
-          >
-            {" "}
-            Soup{" "}
-          </h3>
-
-          <h3
-            className={`text-[16px] font-semibold cursor-pointer ${
-              tabList === 3 ? "text-[#ff6a00]" : "text-white"
-            }`}
-            onClick={() => setTabList(3)}
-          >
-            {" "}
-            Grill{" "}
-          </h3>
-
-          <h3
-            className={`text-[16px] font-semibold cursor-pointer ${
-              tabList === 4 ? "text-[#ff6a00]" : "text-white"
-            }`}
-            onClick={() => setTabList(4)}
-          >
-            {" "}
-            Appetizer{" "}
-          </h3>
-
-          <h3
-            className={`text-[16px] font-semibold cursor-pointer ${
-              tabList === 5 ? "text-[#ff6a00]" : "text-white"
-            }`}
-            onClick={() => setTabList(5)}
-          >
-            {" "}
-            Dessert{" "}
-          </h3> */}
+       
 
         </div>
 
