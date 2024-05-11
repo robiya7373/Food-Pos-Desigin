@@ -32,7 +32,7 @@ const HomePage = ({menuItems, filterItems, setItem, item, filter, searchText, se
           </div>
         </div>
 
-        <div className="gap-8 flex mt-6 pb-4">
+        <div className="gap-8 flex mt-6 ms-[-30px] pb-4">
 
           <h3 onClick={() => {
             setItem(productList);
@@ -44,7 +44,7 @@ const HomePage = ({menuItems, filterItems, setItem, item, filter, searchText, se
             }`}
             // onClick={() => setTabList(0)} 
           >
-            All
+            {/* All */}
           </h3> 
 
        {
